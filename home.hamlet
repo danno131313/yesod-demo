@@ -1,0 +1,4 @@
+<h1>#{title}!
+<p>
+    This is crazy stuff!
+    <a href=@{HomeR}>Go home
