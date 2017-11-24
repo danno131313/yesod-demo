@@ -1,4 +1,6 @@
 <h1>#{title}!
-<p>
-    This is crazy stuff!
-    <a href=@{HomeR}>Go home
+<p> This is crazy stuff!
+<p>Enter which fibonacci number you'd like to see (indexed from 0)
+    <form method=post action=@{HomeR} enctype=#{enctype}>
+        ^{formWidget}
+        <button>Submit

@@ -1,1 +1,3 @@
-<h1>#{x}
+<div #container>
+    <p>Fibonacci ##{x}:
+    <h1>#{fibs !! x}
